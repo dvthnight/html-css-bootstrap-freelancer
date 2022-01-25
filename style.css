@@ -1,0 +1,32 @@
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+body{
+    color: white;
+}
+
+.ms_cursor{
+    cursor: pointer;
+}
+
+.ms_background-dark{
+    background-color: rgb(41, 54, 69);
+}
+
+.ms_background-light{
+    background-color: rgb(54, 74, 96);
+}
+
+.ms_background-main{
+    background-color: rgb(65, 175, 147);
+}
+
+.ms_el-nav{
+    padding: 10px;
+}
