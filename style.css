@@ -116,3 +116,26 @@ body{
 .cont_card:hover i{
     display: block;
 }
+
+
+.lista_social{
+    display: contents;
+}
+
+.logo_social{
+    width: 30px;
+    height: 30px;
+    border-radius: 99999999px;
+    border: 1px solid white;
+}
+
+.logo_social i{
+    line-height: 30px;
+}
+
+@media all and (min-width: 769px) {
+    .testo{
+        column-count: 2;
+        column-gap: 1.5rem;
+    }
+}
