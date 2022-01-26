@@ -34,3 +34,41 @@ body{
 .ms_color-black{
     color: black;
 }
+
+.ms_stellina::after{
+    content: "";
+    display: block;
+    border: 1px solid white;
+    width: 80px;
+}
+
+.ms_stellina{
+    display: flex;
+    align-items: center;
+}
+
+.ms_stellina i{
+    padding: 20px;
+}
+
+.ms_stellina::before{
+    content: "";
+    display: block;
+    border: 1px solid white;
+    width: 80px;
+}
+
+
+.stellina_nera::before{
+    content: "";
+    display: block;
+    border: 1px solid black;
+    width: 80px;
+}
+
+.stellina_nera::after{
+    content: "";
+    display: block;
+    border: 1px solid black;
+    width: 80px;
+}
