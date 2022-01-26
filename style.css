@@ -133,6 +133,14 @@ body{
     line-height: 30px;
 }
 
+.ms_link_footer{
+    color: rgb(65, 175, 147);
+}
+
+.nav_destra{
+    flex-grow: 0;
+}
+
 @media all and (min-width: 769px) {
     .testo{
         column-count: 2;
