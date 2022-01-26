@@ -72,3 +72,9 @@ body{
     border: 1px solid black;
     width: 80px;
 }
+
+.ms_card_img{
+    height: 250px;
+    background-color: brown;
+    border-radius: 7px;
+}
